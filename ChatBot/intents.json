@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! Welcome to our e-commerce store for female reproductive health products. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Can you tell me about your products?",
+        "What kind of products do you offer?",
+        "Do you have any specific products for female reproductive health?"
+      ],
+      "responses": [
+        "We offer a wide range of products for female reproductive health, including menstrual hygiene products, fertility supplements, and natural contraception options. Is there a particular product you're interested in?"
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "How can I track my order?",
+        "Where is my package?",
+        "I haven't received my order yet"
+      ],
+      "responses": [
+        "To track your order, please provide your order number, and I'll be happy to assist you. Alternatively, you can visit the 'Order Tracking' section on our website and enter your order details for real-time updates."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept PayPal?"
+      ],
+      "responses": [
+        "We accept various payment methods, including credit/debit cards, PayPal, and online banking transfers. At the checkout, you'll be able to select your preferred payment option."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "How long does shipping take?",
+        "Do you offer international shipping?",
+        "What are the shipping charges?"
+      ],
+      "responses": [
+        "Our shipping times vary depending on your location. Typically, domestic orders arrive within 3-5 business days, while international shipping may take longer. We offer international shipping to select countries, and you can check the shipping charges during the checkout process."
+      ]
+    },
+    {
+      "tag": "returns_policy",
+      "patterns": [
+        "What is your returns policy?",
+        "Can I return a product if I'm not satisfied?",
+        "How can I initiate a return?"
+      ],
+      "responses": [
+        "We have a hassle-free returns policy. If you're not satisfied with your purchase, please reach out to our customer support team within 30 days of receiving your order. They will guide you through the returns process and assist you with any queries or concerns you may have."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact your customer support?",
+        "What is your customer service phone number?",
+        "Do you have an email address for inquiries?"
+      ],
+      "responses": [
+        "You can contact our customer support team by phone at [customer service phone number] or by email at [customer support email address]. We're available to assist you during our business hours from [business hours]. Feel free to reach out to us with any questions or concerns!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Thank you for your help. Goodbye!",
+        "Goodbye",
+        "See you later"
+      ],
+      "responses": [
+        "Thank you for contacting us! If you have any more questions in the future, feel free to reach out. Have a great day!"
+      ]
+    }
+  ]
+}
+      
