@@ -16,7 +16,7 @@ def stem(word):
     """
     stemming = find the root form of the word
     examples:
-    words = ["organize", "organizes", "organizing"]
+    words = ["d", "organizes", "organizing"]
     words = [stem(w) for w in words]
     -> ["organ", "organ", "organ"]
     """
