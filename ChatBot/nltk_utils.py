@@ -1,6 +1,10 @@
 import numpy as np
 import nltk
 # nltk.download('punkt')
+
+# nltk.download('stopwords')
+from nltk.corpus import stopwords
+
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
@@ -34,6 +38,9 @@ def bag_of_words(tokenized_sentence, words):
     """
     # stem each word
     sentence_words = [stem(word) for word in tokenized_sentence]
+    
+    #remove stopwords
+     sentence_words = remove_stopwords(sentence_words)  # New addition: remove stopwords
     # initialize bag with 0 for each word
     bag = np.zeros(len(words), dtype=np.float32)
     for idx, w in enumerate(words):
